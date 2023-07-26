@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1380.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.student_attendance_management_system.server_page1_adduser_controller">
+   <children>
+      <ImageView fitHeight="826.0" fitWidth="1578.0" layoutX="-24.0" layoutY="-24.0" pickOnBounds="true">
+         <image>
+            <Image url="@Admin2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="489.0" layoutY="232.0" text="FIRST NAME :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fname" layoutX="763.0" layoutY="222.0" prefHeight="49.0" prefWidth="361.0" promptText="FIRSTNAME" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </TextField>
+      <Label layoutX="499.0" layoutY="332.0" text="LAST NAME :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="559.0" layoutY="431.0" text="MAIL ID :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="499.0" layoutY="542.0" text="PASSWORD :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="652.0" text="CONFIRM PASSWORD :" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold" size="41.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lname" layoutX="762.0" layoutY="322.0" prefHeight="49.0" prefWidth="361.0" promptText="LASTNAME" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mailid" layoutX="762.0" layoutY="423.0" prefHeight="49.0" prefWidth="361.0" promptText="MAIL ID" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pss" layoutX="763.0" layoutY="526.0" prefHeight="54.0" prefWidth="361.0" promptText="PASSWORD" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="cpss" layoutX="764.0" layoutY="637.0" prefHeight="54.0" prefWidth="361.0" promptText="CONFIRM PASSWORD" style="-fx-background-color: TRANSPARENT; -fx-border-color: #282828; -fx-border-width: 0PX 0PX 2PX 0PX;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="backpage" layoutX="18.0" layoutY="12.0" mnemonicParsing="false" onAction="#backto" style="-fx-background-color: #282828;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="adduser" layoutX="1203.0" layoutY="649.0" mnemonicParsing="false" onAction="#useradd" style="-fx-background-color: #282828;" text="ADD USER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="inmsg" layoutX="511.0" layoutY="717.0" prefHeight="50.0" prefWidth="576.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="542.0" layoutY="31.0" text="KONGU ENGINEERING COLLEGE">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="612.0" layoutY="84.0" text="PERUNDURAI, ERODE - 638060.">
+         <font>
+            <Font name="Calibri" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="118.0" fitWidth="160.0" layoutX="406.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="101.0" layoutX="1070.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="673.0" layoutY="130.0" text="ADD NEW USER" textFill="#282828">
+         <font>
+            <Font name="Calibri Bold Italic" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
